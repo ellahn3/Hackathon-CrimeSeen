@@ -1,6 +1,11 @@
 # Hackathon-CrimeSeen
 Hackathon CrimeSeen startup
 
+### Selected issue:
+Security bodies around the world and the Israel Police in particular are constantly engaged in maintaining public safety. One of the significant challenges in this task is the early detection of ammunition. There are many means of detection such as magnetometers and more but security officials do not always want the means to be visible.
+
+### Defining the solution:
+Weapon identification by thermal camera along with facial identification by another camera, which checks whether the person is in an existing pool of police faces of criminals who have a criminal record. In the event that a match is found, a warning will be sent to police officials.
 
 ## DATA:
 The data contain 2 thypes of infrared images
