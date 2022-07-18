@@ -1,11 +1,21 @@
 # Hackathon-CrimeSeen
 Hackathon CrimeSeen startup
+![image](https://user-images.githubusercontent.com/73067197/179469520-abe80f2d-a3d8-42ab-af88-81cee91f2587.png)
 
 ### Selected issue:
-Security bodies around the world and the Israel Police in particular are constantly engaged in maintaining public safety. One of the significant challenges in this task is the early detection of ammunition. There are many means of detection such as magnetometers and more but security officials do not always want the means to be visible.
+Security bodies around the world, in particular the Israel Police, are constantly engaged in maintaining public safety. 
+One of the main challenges in this task is the early detection of ammunition. There are many means of detection such as magnetometers and more but security officials do not always want the means to be visible, or prominent as the detection means that are used until now .
 
-### Defining the solution:
-Weapon identification by thermal camera along with facial identification by another camera, which checks whether the person is in an existing pool of police faces of criminals who have a criminal record. In the event that a match is found, a warning will be sent to police officials.
+### Solution:
+Weapon identification by thermal camera along with facial identification by another camera, which checks whether the person is in an existing face in the police database of criminals who have a criminal record. In the event that a match is found, a warning will be sent to police officials.
+
+![image](https://user-images.githubusercontent.com/73067197/179469369-5ecf0adb-ab13-4d23-9bba-e79e591634b2.png)
+
+
+To implement our statup we built a neural network that builds a model based on machine learning.
+The model will learn how to identify from a thermal image whether there is a weapon hidden under a person's clothing.
+If so the system will scan the person's face with the police face recognition system.
+If the weapon holder is in fact a criminal, who is legally prohibited from walking around with a weapon, the system will send an alert.
 
 ## DATA:
 The data contain 2 thypes of infrared images
